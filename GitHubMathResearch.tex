@@ -2,6 +2,13 @@
 \usepackage{graphicx}
 \usepackage{url}
 
+\usepackage{hyperref}
+
+\hypersetup{
+colorlinks = true,
+linkcolor = red
+}
+
 \title{GitHub for Mathematical Research}
 \author{Luke Guatelli and Andrew Penland}
 \date{\today}
@@ -18,6 +25,12 @@
 
 \subsection{Why Use GitHub?}
 
+GitHub is a tool for project management. It allows all collaborators to keep track of goals (by using the \hyperlink{proj-section}{Projects} and \hyperlink{issues-section}{Issues} features ), as well as enabling communication between collaborators. It promotes an efficient workflow where contributors can work on the project in small chunks.
+
+GitHub is widely used in both open source and closed source software, but it can also be used on any project done on a computer.  GitHub seems well-suited to current trends in mathematical research. The average number of coauthors on mathematical papers is increasing. Large-scale, \textit{crowdsourced} collaboration (such as the PolyMath program) has led to impressive results. (todo: find citation for Polymath papers) 
+
+In the end, each mathematician will have to decide whether the time invested in learning GitHub is worth the potential gains in efficiency and organization. We have found it to be useful.
+
 \section{How To Do Specific Things}
 \newpage
 \subsection{Create An Account}
@@ -33,7 +46,7 @@ The first thing we need is make an account. In any web browser type in the url \
 
 Once these are filled in, select the green ``Sign up for Github'' to create the account. The next pages offers a choice between a free account or a paid one. The paid version allows for the creation of private repositories, while the free one only allows public repositories, but includes all other features of GitHub. It is worth noting that shortly after creation of an account, you will receive an email asking you to verify your email address. It is as simple as clicking the link in the email, taking you to your account page on GitHub.
 
-\subsection{Start a Project}
+\hypertarget{proj-section}{\subsection{Start a Project}}
 
 \subsubsection{Creating a Project Board}
 Next, we want to be able to create projects to work on. To do this from the main repository page click the \includegraphics[scale=.5]{ProjectsTab.png} tab near the top. In the upper right hand corner of this tab, there will a green button like so, \includegraphics[scale=.5]{CreateAProject.png}. The next page will prompt you to choose a name for the project, as well as giving the option for a brief description. The final option we need to choose before creating the project is the template style. The default no template option will allow you to create your own columns for this project. This basic kanban option will automatically include \textit{To Do}, \textit{In Progress}, and \textit{Done} columns which will house issues that match those descriptions. 
@@ -80,7 +93,7 @@ If you know that you have been invited to collaborate on a project, you can acce
 
 You will also receive an e-mail notifying you of the invitation to collaborate. You will \textbf{not} see anything in your GitHub notifications. 
 
-\subsection{Issues}
+\hypertarget{issues-section}{\subsection{Issues}}
 
 Issues are a way for team members to communicate and keep track of changes to the project.  Here is GitHub's description of an issue:~\cite{github-issues} \\
 
