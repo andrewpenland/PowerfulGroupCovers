@@ -21,11 +21,11 @@ linkcolor = red
 
 \subsection{Overview}
 
-\textit{Git} is a version control system - a piece of software that can be used to track changes and other information about projects. \textit{GitHub} is an online platform that uses Git. GitHub is widely used by software developers, and it contains a \textit{lot} of open source software. It is a standard tool in the software world. 
+\textit{Git} is a version control system - a piece of software that can be used to track changes and other information about projects. \textit{GitHub} is an online platform that uses Git. GitHub is widely used by software developers, and it contains a \textit{lot} of open source software. 
 
 \subsection{Why Use GitHub?}
 
-GitHub is a tool for project management. It allows all collaborators to keep track of goals (by using the \hyperlink{proj-section}{Projects} and \hyperlink{issues-section}{Issues} features ), as well as enabling communication between collaborators. It promotes an efficient workflow where contributors can work on the project in small chunks.
+GitHub is a tool for project management. It allows all collaborators to keep track of goals (by using the \hyperlink{proj-section}{Projects} and \hyperlink{issues-section}{Issues} features), as well as enabling communication between collaborators. It promotes an efficient workflow where contributors can work on the project in small chunks.
 
 GitHub is widely used in both open source and closed source software, but it can also be used on any project done on a computer.  GitHub seems well-suited to current trends in mathematical research. The average number of coauthors on mathematical papers is increasing. There is an increase in large-scale, \textit{crowdsourced} collaboration. An example is the PolyMath program~\cite{polymath-blog}, which has led to the solution of at least thirteen open problems. 
 
@@ -69,7 +69,7 @@ If you already have project files on your computer, you can upload them into the
 
 \subsubsection{From Overleaf}
 
-One obvious disadvantage of using GitHub is that it lacks the ability to automatically compile .tex files into .pdf files. 
+One obvious disadvantage of using GitHub for mathematics is the lack of an ability to automatically compile .tex files into .pdf files. 
 It is possible to integrate projects from Overleaf into GitHub, but it requires using the command line tool \texttt{Git}. A discussion of \texttt{Git} is beyond the scope of our current work, though we may include it in a future version. More information is available at the following links: \\
 
 \begin{enumerate}
@@ -78,6 +78,8 @@ It is possible to integrate projects from Overleaf into GitHub, but it requires 
 \end{enumerate}
 
 \subsection{Edit a File}
+
+You can edit a file online by clicking on the file in the Repository's \textit{Code} page, then clicking the \includegraphics[width=0.75in]{pencil} icon on the right hand side. For organization's sake, we prefer to create a new \hyperlink{branch-section}{branch} before performing any substantial edits. 
 
 \section{Collaborators}
 
@@ -88,9 +90,9 @@ It is possible to integrate projects from Overleaf into GitHub, but it requires 
 \begin{enumerate}
 \item Go to the repository.
 \item Click the \includegraphics[width=0.75in]{SettingsButton} button.  
-\item From the ``Settings'' page, click on the \includegrpahics[width=0.75in]{CollaboratorsButton} button on the left side of the page.
+\item From the ``Settings'' page, click on the \includegraphics[width=0.75in]{CollaboratorsButton} button on the left side of the page.
 \item Type the information into the search window \begin{center} 
-\includegraphics[width=0.8\textwdidth]{CollaboratorSearch}
+\includegraphics[width=0.8\textwidth]{CollaboratorSearchImage}
 \end{center}
 and click ``Add a Collaborator''. 
 \end{enumerate}
@@ -101,7 +103,7 @@ If you know that you have been invited to collaborate on a project, you can acce
 
 You will also receive an e-mail notifying you of the invitation to collaborate. You will \textbf{not} see anything in your GitHub notifications. 
 
-\hypertarget{issues-section}{\subsection{Issues}}
+\hypertarget{issues-section}{\section{Issues}}
 
 Issues are a way for team members to communicate and keep track of changes to the project.  Here is GitHub's description of an issue:~\cite{github-issues} \\
 
@@ -109,7 +111,7 @@ Issues are a way for team members to communicate and keep track of changes to th
 Issues are used to track todos, bugs, feature requests, and more. As issues are created, they'll appear here in a searchable and filterable list. To get started, you should \underline{create an issue.}
 \end{quote} 
 
-\subsubsection{Creating An Issue}
+\subsection{Creating An Issue}
 We'll follow their advice, creating our first issue. The first issue we will create will be a ``\texttt{todo}'', telling us to create an issue. (Thus, this issue resolves itself.) We have two options: 
 
 \begin{enumerate}
@@ -131,11 +133,11 @@ Either way brings up a ``New Issue'' screen with fields for Title and Descriptio
 \includegraphics[width=\textwidth]{CreatingAnIssue}
 \end{center}
 
-\subsubsection{Checking For Issues}
+\subsection{Checking For Issues}
 
 If we log in to GitHub, we see that there is a new Issue by checking the ``Issues'' tab. We see \includegraphics[width=0.75in]{IssuesLink}, telling us there is one new issue. We click on the tab to see what the issue is.
 
-\subsubsection{Closing An Issue} 
+\subsection{Closing An Issue} 
 
 Once an issue is satisfactorily resolved, we want to close it. We can do this on the Issues screen by selecting the checkbox next to the issue, then going to the ``Mark as'' menu and selecting ``Closed''.
 
@@ -143,15 +145,15 @@ Once an issue is satisfactorily resolved, we want to close it. We can do this on
 \includegraphics[width=0.9\textwidth]{MarkIssueClosed}
 \end{center}
 
-\subsubsection{Labeling Issues}
+\subsection{Labeling Issues}
 
 We can label issues so that we know what type they are. We can label an issue when we create it by using a dropdown menu called ``Labels''. GitHub has pre-existing labels for various categories. Simply type the name of the label you want to use or select it from the menu. 
 
-\subsubsection{Creating Your Own Labels}
+\subsection{Creating Your Own Labels}
 
 To create our own label, we begin by typing the name we want to use for the label. GitHub will automatically bring up a suggestion to create a label with this name.
 
-Figure~\ref{fig:begin-typing-todo} and Figure~\ref{fig:todo-label-details} show how to create a ``todo'' label, which is a common issue that doesn't have a premade GitHub label. 
+Figure~\ref{fig:begin-typing-todo} and Figure~\ref{fig:todo-label-details} show how to create a ``todo'' label, which is a common issue, but one that doesn't already have a premade GitHub label. 
 
 
 \begin{figure}\label{fig:begin-typing-todo}
@@ -165,14 +167,32 @@ Figure~\ref{fig:begin-typing-todo} and Figure~\ref{fig:todo-label-details} show 
 \end{figure}
 
 
-\subsubsection{Assigning Issues}
+\subsection{Assigning Issues}
 
-You can assign an issue to the attention of specific project members using the ``Assignments'' drop-down menu, which is to the right of the screen just above the ``Labels'' menu. 
+You can assign an issue to the attention of specific project members using the \textit{Assignments} drop-down menu, which is to the right of the screen just above the \textit{Labels} menu. 
 
-\subsection{Pull Requests}
+\section{Changes}
+
+\subsection{Making Changes}
+
+\hypertarget{branch-section}{\subsubsection{Branches}}
+
+
+\subsubsection{Pull Requests}
 
 \subsection{Keeping Track of Changes}
 
+\subsubsection{Changes To The Repository} 
+
+If you want useful information about the project's history, look no further than the \includegraphics[width=0.75in]{Insights} tab. From the Insights page, you can see all Issues and Pull Requests associated to the project by clicking on  \includegraphics[width=0.75in]{Pulse}. Other tools available from the Insights page include graphs that track data related to commits, visits, and code dependencies. Analysis of GitHub data is an emerging topic in computer science, with several tools intended for this purpose. (For just one example, see~\cite{github-gender-study}). 
+
+\subsubsection{Changes To An Individual File}
+
+To see changes in an individual file, open the file in GitHub, then use the \textit{Blame} or \textit{History} command. \textit{Blame} will show the document along with a line-by-line annotation of which commit added each particular section. \textit{History} gives a day-by-day overview of commits and their summaries. 
+
 \section{Conclusion}
+
+\bibliography{GitHubMathResearch.bib}
+\bibliographystyle{plain}
 
 \end{document}
