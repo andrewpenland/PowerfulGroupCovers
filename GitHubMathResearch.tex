@@ -29,7 +29,7 @@ GitHub is a tool for project management. It allows all collaborators to keep tra
 
 GitHub is widely used in both open source and closed source software, but it can also be used on any project done on a computer.  GitHub seems well-suited to current trends in mathematical research. The average number of coauthors on mathematical papers is increasing. There is an increase in large-scale, \textit{crowdsourced} collaboration. An example is the PolyMath program~\cite{polymath-blog}, which has led to the solution of at least thirteen open problems. 
 
-In the end, each mathematician will have to decide on their own optimal work process, as well as whether the time invested in learning GitHub is worth the potential gains in efficiency and organization. We have found GitHub very useful.
+In the end, each mathematician will have to decide on their own optimal work process, as well as whether the time invested in learning GitHub is worth the potential gains in efficiency and organization. We have found GitHub very useful. 
 
 \section{How To Do Specific Things}
 \subsection{Create An Account}
@@ -64,7 +64,7 @@ Once you have a project created you can add customized columns in addition to th
 \end{center}
 \end{figure}
 
-\subsection{Add a File}
+\subsection{Add a File}\label{ss:add-file}
 
 \subsubsection{From Your Computer} 
 
@@ -80,7 +80,7 @@ It is possible to integrate projects from Overleaf into GitHub, but it requires 
 \item \href{https://www.overleaf.com/help/233-how-do-i-connect-an-overleaf-project-with-a-repo-on-github#.Wx6qfY5r06Y}{ How to connect an Overleaf project with a repo on GitHub, GitLab, or BitBucket}
 \end{enumerate}
 
-\subsection{Edit a File}
+\subsection{Edit a File}\label{ss:edit-file}
 
 You can edit a file online by clicking on the file in the Repository's \textit{Code} page, then clicking the \includegraphics[width=0.75in]{pencil} icon on the right hand side. For organization's sake, we prefer to create a new \hyperlink{branch-section}{branch} before performing any substantial edits. 
 
@@ -180,6 +180,27 @@ You can assign an issue to the attention of specific project members using the \
 
 \hypertarget{branch-section}{\subsubsection{Branches}}
 
+One nice feature of GitHub is that it allows us to try things out in a different \textit{branch}, so that we can edit the repository separately without changing the currently accepted version. Once we have made the desired changes in the branch, we will create a pull request to merge our branch with the master branch. 
+
+\subsubsection{Creating a New Branch}
+
+We can create a new branch by selecting the \includegraphics[width=0.75in]{master-branch} button, then typing the name of the branch we want to create. In the resulting drop-down menu, select the \textit{Create Branch} option. 
+
+\begin{figure}[h!]\label{f:create-branch}
+\centering
+\includegraphics[width=0.5\textwidth]{creating-branch}
+\caption{Creating a New Branch}
+\end{figure}
+
+\subsubsection{Working Within the New Branch}
+
+After creating the new branch, we will make the desired changes. This usually involves adding and editing files, which can be done online as in subsections~\ref{ss:add-file} and~\ref{ss:edit-file}, or by downloading the repository to make changes on our own local machine. 
+
+If we want to work offline, we can use the \includegraphics[width=0.75in]{clone-or-download} button in the upper right hand part of the screen. We select \textit{Download ZIP} from the resulting \textit{Clone with HTTPS} box. 
+
+After downloading and unzipping the repository, we can make any desired edits on our local machine. We then re-upload the files from our computer to update the branch, as described in in subsection~\ref{ss:add-file}. 
+ 
+When we have made the desired changes, we will usually want to initiate a \textit{pull request} so they become part of the master branch. 
 
 \subsubsection{Pull Requests}
 Once we are done working on our new branch and would like to integrate the changes into the master branch, we need to generate a pull request. To do this we will first move over to the \includegraphics[scale=.75]{PullReqTab.png} tab. On this page we will find the \includegraphics[scale=.75]{NewPullReq.png} button. Select this, and we will be prompted to choose which branches or forks we wish to merge using the drop down boxes shown below. We select the appropriate branches and click ``Create New Pull Request''.  
@@ -200,6 +221,8 @@ If you want useful information about the project's history, look no further than
 To see changes in an individual file, open the file in GitHub, then use the \textit{Blame} or \textit{History} command. \textit{Blame} will show the document along with a line-by-line annotation of which commit added each particular section. \textit{History} gives a day-by-day overview of commits and their summaries. 
 
 \section{Conclusion}
+
+We hope that you have found this brief tutorial useful. There are many other features that GitHub has; we have covered the ones we felt were most useful to a complete beginner. We welcome any feedback. Good luck with your research!
 
 \bibliography{GitHubMathResearch.bib}
 \bibliographystyle{plain}

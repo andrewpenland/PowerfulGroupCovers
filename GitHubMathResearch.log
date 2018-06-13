@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  12 JUN 2018 15:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 JUN 2018 12:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -257,164 +257,226 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 LaTeX Warning: Citation `polymath-blog' on page 1 undefined on input line 30.
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 37.
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 38.
-
-<GithubSignup.png, id=140, 288.47775pt x 332.442pt>
+<GithubSignup.png, id=148, 288.47775pt x 332.442pt>
 File: GithubSignup.png Graphic file (type png)
  <use GithubSignup.png>
-Package pdftex.def Info: GithubSignup.png used on input line 42.
+Package pdftex.def Info: GithubSignup.png used on input line 41.
 (pdftex.def)             Requested size: 144.23851pt x 166.22058pt.
 
-<ProjectsTab.png, id=142, 92.7465pt x 33.726pt>
+<ProjectsTab.png, id=150, 92.7465pt x 33.726pt>
 File: ProjectsTab.png Graphic file (type png)
  <use ProjectsTab.png>
-Package pdftex.def Info: ProjectsTab.png used on input line 52.
+Package pdftex.def Info: ProjectsTab.png used on input line 51.
 (pdftex.def)             Requested size: 46.37314pt x 16.86295pt.
 
-<CreateAProject.png, id=143, 95.75775pt x 25.89674pt>
+<CreateAProject.png, id=151, 95.75775pt x 25.89674pt>
 File: CreateAProject.png Graphic file (type png)
  <use CreateAProject.png>
-Package pdftex.def Info: CreateAProject.png used on input line 52.
+Package pdftex.def Info: CreateAProject.png used on input line 51.
 (pdftex.def)             Requested size: 47.87875pt x 12.94833pt.
 
 [2 <./GithubSignup.png> <./ProjectsTab.png> <./CreateAProject.png>]
-<CreatingProject.png, id=153, 646.8165pt x 426.99525pt>
+<CreatingProject.png, id=161, 646.8165pt x 426.99525pt>
 File: CreatingProject.png Graphic file (type png)
 
 <use CreatingProject.png>
-Package pdftex.def Info: CreatingProject.png used on input line 56.
+Package pdftex.def Info: CreatingProject.png used on input line 55.
 (pdftex.def)             Requested size: 388.09288pt x 256.19913pt.
 
-Overfull \hbox (28.09288pt too wide) in paragraph at lines 56--57
+Overfull \hbox (28.09288pt too wide) in paragraph at lines 55--56
 [][] 
  []
 
-<UploadFilesbutton.png, id=154, 92.345pt x 28.105pt>
+<AddColumn.png, id=162, 240.29774pt x 80.09924pt>
+File: AddColumn.png Graphic file (type png)
+ <use AddColumn.png>
+Package pdftex.def Info: AddColumn.png used on input line 60.
+(pdftex.def)             Requested size: 48.05869pt x 16.01955pt.
+
+<CreateColumn.png, id=163, 348.1005pt x 417.35925pt>
+File: CreateColumn.png Graphic file (type png)
+ <use CreateColumn.png>
+Package pdftex.def Info: CreateColumn.png used on input line 63.
+(pdftex.def)             Requested size: 278.48077pt x 333.88783pt.
+
+[3 <./CreatingProject.png> <./AddColumn.png>]
+<UploadFilesbutton.png, id=171, 92.345pt x 28.105pt>
 File: UploadFilesbutton.png Graphic file (type png)
 
 <use UploadFilesbutton.png>
-Package pdftex.def Info: UploadFilesbutton.png used on input line 68.
+Package pdftex.def Info: UploadFilesbutton.png used on input line 71.
 (pdftex.def)             Requested size: 36.135pt x 10.99734pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--74
+ [4 <./CreateColumn.png> <./UploadFilesbutton.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
 
  []
 
-[3 <./CreatingProject.png> <./UploadFilesbutton.png>]
-<pencil.png, id=164, 44.165pt x 39.14626pt>
+<pencil.png, id=180, 44.165pt x 39.14626pt>
 File: pencil.png Graphic file (type png)
  <use pencil.png>
-Package pdftex.def Info: pencil.png used on input line 82.
+Package pdftex.def Info: pencil.png used on input line 85.
 (pdftex.def)             Requested size: 54.2025pt x 48.04387pt.
 
-<SettingsButton.png, id=166, 107.40125pt x 42.1575pt>
+<SettingsButton.png, id=182, 107.40125pt x 42.1575pt>
 File: SettingsButton.png Graphic file (type png)
  <use SettingsButton.png>
-Package pdftex.def Info: SettingsButton.png used on input line 92.
+Package pdftex.def Info: SettingsButton.png used on input line 95.
 (pdftex.def)             Requested size: 54.2025pt x 21.27617pt.
 
-<CollaboratorsButton.png, id=167, 233.87375pt x 37.13875pt>
+<CollaboratorsButton.png, id=183, 233.87375pt x 37.13875pt>
 File: CollaboratorsButton.png Graphic file (type png)
 
 <use CollaboratorsButton.png>
-Package pdftex.def Info: CollaboratorsButton.png used on input line 93.
+Package pdftex.def Info: CollaboratorsButton.png used on input line 96.
 (pdftex.def)             Requested size: 54.2025pt x 8.60689pt.
 
-<CollaboratorSearchImage.png, id=168, 727.71875pt x 126.4725pt>
+<CollaboratorSearchImage.png, id=184, 727.71875pt x 126.4725pt>
 File: CollaboratorSearchImage.png Graphic file (type png)
 
 <use CollaboratorSearchImage.png>
-Package pdftex.def Info: CollaboratorSearchImage.png used on input line 95.
+Package pdftex.def Info: CollaboratorSearchImage.png used on input line 98.
 (pdftex.def)             Requested size: 288.0011pt x 50.05354pt.
- [4 <./pencil.png> <./SettingsButton.png> <./CollaboratorsButton.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+ [5 <./pencil.png> <./SettingsButton.png> <./CollaboratorsButton.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
-<PlusMenu.png, id=187, 40.15pt x 32.12pt>
+<PlusMenu.png, id=203, 40.15pt x 32.12pt>
 File: PlusMenu.png Graphic file (type png)
  <use PlusMenu.png>
-Package pdftex.def Info: PlusMenu.png used on input line 119.
+Package pdftex.def Info: PlusMenu.png used on input line 122.
 (pdftex.def)             Requested size: 40.14989pt x 32.1199pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
 
  []
 
-<NewIssueMenu.png, id=188, 573.14125pt x 670.505pt>
+<NewIssueMenu.png, id=204, 573.14125pt x 670.505pt>
 File: NewIssueMenu.png Graphic file (type png)
  <use NewIssueMenu.png>
-Package pdftex.def Info: NewIssueMenu.png used on input line 123.
+Package pdftex.def Info: NewIssueMenu.png used on input line 126.
 (pdftex.def)             Requested size: 180.0pt x 210.57587pt.
 
-[5 <./CollaboratorSearchImage.png> <./PlusMenu.png>]
-<IssuesLink.png, id=197, 117.43875pt x 46.1725pt>
+[6 <./CollaboratorSearchImage.png> <./PlusMenu.png>]
+<IssuesLink.png, id=213, 117.43875pt x 46.1725pt>
 File: IssuesLink.png Graphic file (type png)
  <use IssuesLink.png>
-Package pdftex.def Info: IssuesLink.png used on input line 126.
+Package pdftex.def Info: IssuesLink.png used on input line 129.
 (pdftex.def)             Requested size: 54.2025pt x 21.31004pt.
 
-<NewIssueButton.png, id=198, 97.36375pt x 39.14626pt>
+<NewIssueButton.png, id=214, 97.36375pt x 39.14626pt>
 File: NewIssueButton.png Graphic file (type png)
  <use NewIssueButton.png>
-Package pdftex.def Info: NewIssueButton.png used on input line 126.
+Package pdftex.def Info: NewIssueButton.png used on input line 129.
 (pdftex.def)             Requested size: 54.2025pt x 21.79272pt.
 
-<SubmitNewIssue.png, id=199, 149.55875pt x 50.1875pt>
+<SubmitNewIssue.png, id=215, 149.55875pt x 50.1875pt>
 File: SubmitNewIssue.png Graphic file (type png)
  <use SubmitNewIssue.png>
-Package pdftex.def Info: SubmitNewIssue.png used on input line 130.
+Package pdftex.def Info: SubmitNewIssue.png used on input line 133.
 (pdftex.def)             Requested size: 54.2025pt x 18.18848pt.
 
-<CreatingAnIssue.png, id=200, 1108.14pt x 468.75125pt>
+<CreatingAnIssue.png, id=216, 1108.14pt x 468.75125pt>
 File: CreatingAnIssue.png Graphic file (type png)
 
 <use CreatingAnIssue.png>
-Package pdftex.def Info: CreatingAnIssue.png used on input line 133.
+Package pdftex.def Info: CreatingAnIssue.png used on input line 136.
 (pdftex.def)             Requested size: 360.0pt x 152.27797pt.
 File: IssuesLink.png Graphic file (type png)
  <use IssuesLink.png>
-Package pdftex.def Info: IssuesLink.png used on input line 138.
+Package pdftex.def Info: IssuesLink.png used on input line 141.
 (pdftex.def)             Requested size: 54.2025pt x 21.31004pt.
- [6 <./NewIssueMenu.png> <./IssuesLink.png> <./NewIssueButton.png> <./SubmitNew
-Issue.png> <./CreatingAnIssue.png>] <MarkIssueClosed.png, id=211, 625.33624pt x
+ [7 <./NewIssueMenu.png> <./IssuesLink.png> <./NewIssueButton.png> <./SubmitNew
+Issue.png> <./CreatingAnIssue.png>] <MarkIssueClosed.png, id=228, 625.33624pt x
  226.8475pt>
 File: MarkIssueClosed.png Graphic file (type png)
 
 <use MarkIssueClosed.png>
-Package pdftex.def Info: MarkIssueClosed.png used on input line 145.
+Package pdftex.def Info: MarkIssueClosed.png used on input line 148.
 (pdftex.def)             Requested size: 323.9978pt x 117.53561pt.
 
-<CreatingLabels.png, id=214, 1085.05376pt x 577.15625pt>
+<CreatingLabels.png, id=231, 1085.05376pt x 577.15625pt>
 File: CreatingLabels.png Graphic file (type png)
 
 <use CreatingLabels.png>
-Package pdftex.def Info: CreatingLabels.png used on input line 160.
+Package pdftex.def Info: CreatingLabels.png used on input line 163.
 (pdftex.def)             Requested size: 323.9978pt x 172.33798pt.
- <NewLabelBox.png, id=215, 1047.915pt x 543.02875pt>
+ <NewLabelBox.png, id=232, 1047.915pt x 543.02875pt>
 File: NewLabelBox.png Graphic file (type png)
 
 <use NewLabelBox.png>
-Package pdftex.def Info: NewLabelBox.png used on input line 165.
+Package pdftex.def Info: NewLabelBox.png used on input line 168.
 (pdftex.def)             Requested size: 323.9978pt x 167.88972pt.
- <Insights.png, id=216, 104.39pt x 39.14626pt>
+ [8 <./MarkIssueClosed.png>] [9 <./CreatingLabels.png> <./NewLabelBox.png>] <ma
+ster-branch.png, id=246, 123.46124pt x 40.15pt>
+File: master-branch.png Graphic file (type png)
+
+<use master-branch.png>
+Package pdftex.def Info: master-branch.png used on input line 187.
+(pdftex.def)             Requested size: 54.2025pt x 17.62683pt.
+
+<creating-branch.png, id=247, 300.12125pt x 175.65625pt>
+File: creating-branch.png Graphic file (type png)
+
+<use creating-branch.png>
+Package pdftex.def Info: creating-branch.png used on input line 191.
+(pdftex.def)             Requested size: 180.0pt x 105.35434pt.
+
+<clone-or-download.png, id=250, 141.52875pt x 30.1125pt>
+File: clone-or-download.png Graphic file (type png)
+
+<use clone-or-download.png>
+Package pdftex.def Info: clone-or-download.png used on input line 199.
+(pdftex.def)             Requested size: 54.2025pt x 11.53246pt.
+ [10 <./master-branch.png> <./creating-branch.png> <./clone-or-download.png>] <
+PullReqTab.png, id=260, 113.82526pt x 30.71475pt>
+File: PullReqTab.png Graphic file (type png)
+
+<use PullReqTab.png>
+Package pdftex.def Info: PullReqTab.png used on input line 206.
+(pdftex.def)             Requested size: 85.36871pt x 23.036pt.
+ <NewPullReq.png, id=261, 104.18925pt x 30.71475pt>
+File: NewPullReq.png Graphic file (type png)
+
+<use NewPullReq.png>
+Package pdftex.def Info: NewPullReq.png used on input line 206.
+(pdftex.def)             Requested size: 78.14172pt x 23.036pt.
+ <CompareBranches.png, id=262, 740.16525pt x 103.587pt>
+File: CompareBranches.png Graphic file (type png)
+
+<use CompareBranches.png>
+Package pdftex.def Info: CompareBranches.png used on input line 209.
+(pdftex.def)             Requested size: 370.08171pt x 51.79337pt.
+
+Overfull \hbox (10.08171pt too wide) in paragraph at lines 209--210
+ [] 
+ []
+
+<PullFromBranchList.png, id=263, 110.21175pt x 24.69225pt>
+File: PullFromBranchList.png Graphic file (type png)
+
+<use PullFromBranchList.png>
+Package pdftex.def Info: PullFromBranchList.png used on input line 212.
+(pdftex.def)             Requested size: 82.6586pt x 18.51912pt.
+ <Insights.png, id=264, 104.39pt x 39.14626pt>
 File: Insights.png Graphic file (type png)
 
 <use Insights.png>
-Package pdftex.def Info: Insights.png used on input line 187.
+Package pdftex.def Info: Insights.png used on input line 217.
 (pdftex.def)             Requested size: 54.2025pt x 20.3263pt.
- <Pulse.png, id=217, 104.39pt x 38.1425pt>
+ <Pulse.png, id=265, 104.39pt x 38.1425pt>
 File: Pulse.png Graphic file (type png)
  <use Pulse.png>
-Package pdftex.def Info: Pulse.png used on input line 187.
+Package pdftex.def Info: Pulse.png used on input line 217.
 (pdftex.def)             Requested size: 54.2025pt x 19.8051pt.
 
-[7 <./MarkIssueClosed.png>] [8 <./CreatingLabels.png> <./NewLabelBox.png>]
-(./GitHubMathResearch.bbl
+[11 <./PullReqTab.png> <./NewPullReq.png> <./CompareBranches.png> <./PullFromBr
+anchList.png> <./Insights.png> <./Pulse.png>] (./GitHubMathResearch.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--8
 []\OT1/cmr/m/n/10.95 Annalee Newitz.  Data anal-y-sis of github con-tri-
  []
@@ -437,28 +499,28 @@ nexpected-[]gender-[]bias/$[][]\OT1/cmr/m/n/10.95 .
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
- [9 <./Insights.png> <./Pulse.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 230.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 230.
  (./GitHubMathResearch.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 230.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 230.
 Package rerunfilecheck Info: File `GitHubMathResearch.out' has not changed.
-(rerunfilecheck)             Checksum: E87F0701A11C713CDDE8F625ACE54FEA;2016.
+(rerunfilecheck)             Checksum: B7F0658632FC89A1C8A09B9C1A6EFCF3;2186.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 198.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 230.
  ) 
 Here is how much of TeX's memory you used:
- 5316 strings out of 492995
- 80150 string characters out of 6132704
- 164005 words of memory out of 5000000
- 8767 multiletter control sequences out of 15000+600000
+ 5372 strings out of 492995
+ 81249 string characters out of 6132704
+ 163145 words of memory out of 5000000
+ 8808 multiletter control sequences out of 15000+600000
  9325 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,7n,30p,812b,475s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 28i,8n,30p,866b,475s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -466,10 +528,10 @@ usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
 r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on GitHubMathResearch.pdf (9 pages, 685417 bytes).
+Output written on GitHubMathResearch.pdf (12 pages, 778269 bytes).
 PDF statistics:
- 285 PDF objects out of 1000 (max. 8388607)
- 224 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
- 341 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 328 PDF objects out of 1000 (max. 8388607)
+ 246 compressed objects within 3 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 402 words of extra memory for PDF output out of 10000 (max. 10000000)
 
