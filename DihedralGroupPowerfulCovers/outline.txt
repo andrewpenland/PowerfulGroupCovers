@@ -1,0 +1,26 @@
+Introduction
+
+Summarize previously known results on covering numbers for groups. Covering number. 
+
+
+Background
+
+Definitions: Mention generators and relations, 2-group, powerful 2-group, powerful covering, powerful covering number ($\sigma_p)$, commutator, $G^p$, dihedral group. 
+
+
+Preliminary Results
+
+
+Whatever is necessary. 
+
+Subgroup lattice and word-forms. 
+
+D has three maximal subgroups. 
+
+Question: What are the maximal abelian subgroups of D?
+
+Question: What are the maximal powerful subgroups of D? 
+
+Main Results
+
+Theorem: The powerful covering number of dihedral groups
